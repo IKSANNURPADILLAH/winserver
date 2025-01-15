@@ -8,6 +8,8 @@ pip install pyautogui --quiet
 choco install vcredist-all --no-progress
 curl -s -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/desktop/win64
 curl -s -L -o C:\Users\Public\Desktop\Winrar.exe https://www.rarlab.com/rar/winrar-x64-621.exe
+curl -s -L -o C:\Users\Public\Desktop\uprock-mining.exe https://app-download.uprock.com/UpRock-Mining-v0.0.7.exe
+curl -s -L -o C:\Users\Public\Desktop\TeamViewer_Setup_x64.exe https://download.teamviewer.com/download/TeamViewer_Setup_x64.exe
 curl -s -L -o wall.bat https://raw.githubusercontent.com/IKSANNURPADILLAH/winserver/refs/heads/main/wall.bat
 powershell -Command "Invoke-WebRequest 'https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\VMQuickConfig.exe'"
 C:\Users\Public\Desktop\Telegram.exe /VERYSILENT /NORESTART
