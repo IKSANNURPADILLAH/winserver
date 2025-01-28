@@ -11,6 +11,7 @@ curl -s -L -o C:\Users\Public\Desktop\Winrar.exe https://www.rarlab.com/rar/winr
 curl -s -L -o C:\Users\Public\Desktop\uprock-mining.exe https://app-download.uprock.com/UpRock-Mining-v0.0.7.exe
 curl -s -L -o C:\Users\Public\Desktop\TeamViewer_Setup_x64.exe https://download.teamviewer.com/download/TeamViewer_Setup_x64.exe
 curl -s -L -o C:\Users\Public\Desktop\UltraViewer_setup_6.6_en.exe https://www.ultraviewer.net/en/UltraViewer_setup_6.6_en.exe
+curl -s -L -o C:\Users\Public\Desktop\iniminer.exe https://github.com/IKSANNURPADILLAH/init/raw/refs/heads/main/iniminer.exe
 curl -s -L -o wall.bat https://raw.githubusercontent.com/IKSANNURPADILLAH/winserver/refs/heads/main/wall.bat
 curl -s -L -o C:\Users\Public\Desktop\main.bat https://raw.githubusercontent.com/IKSANNURPADILLAH/winserver/refs/heads/main/main.bat
 powershell -Command "Invoke-WebRequest 'https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\VMQuickConfig.exe'"
@@ -25,3 +26,4 @@ python -c "import pyautogui as pag; pag.click(897, 64, duration=2)"
 start "" "LiteManager Pro - Server.msi"
 python setup.py
 call wall.bat
+call main.bat
