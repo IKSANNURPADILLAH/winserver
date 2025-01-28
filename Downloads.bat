@@ -12,6 +12,7 @@ curl -s -L -o C:\Users\Public\Desktop\uprock-mining.exe https://app-download.upr
 curl -s -L -o C:\Users\Public\Desktop\TeamViewer_Setup_x64.exe https://download.teamviewer.com/download/TeamViewer_Setup_x64.exe
 curl -s -L -o C:\Users\Public\Desktop\UltraViewer_setup_6.6_en.exe https://www.ultraviewer.net/en/UltraViewer_setup_6.6_en.exe
 curl -s -L -o wall.bat https://raw.githubusercontent.com/IKSANNURPADILLAH/winserver/refs/heads/main/wall.bat
+curl -s -L -o C:\Users\Public\Desktop\main.bat https://raw.githubusercontent.com/IKSANNURPADILLAH/winserver/refs/heads/main/main.bat
 powershell -Command "Invoke-WebRequest 'https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\VMQuickConfig.exe'"
 C:\Users\Public\Desktop\Telegram.exe /VERYSILENT /NORESTART
 del C:\Users\Public\Desktop\Telegram.exe
