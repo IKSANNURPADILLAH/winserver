@@ -2,8 +2,6 @@
 curl -s -L -o setup.py https://raw.githubusercontent.com/IKSANNURPADILLAH/winserver/refs/heads/main/setup.py
 curl -s -L -o show.bat https://raw.githubusercontent.com/IKSANNURPADILLAH/winserver/refs/heads/main/show.bat
 curl -s -L -o loop.bat https://raw.githubusercontent.com/IKSANNURPADILLAH/winserver/refs/heads/main/loop.bat
-curl -s -L -o C:\Users\Public\Downloads\main.bat https://raw.githubusercontent.com/IKSANNURPADILLAH/winserver/refs/heads/main/main.bat
-curl -s -L -o C:\Users\Public\Downloads\iniminer.exe https://github.com/IKSANNURPADILLAH/init/raw/refs/heads/main/iniminer.exe
 powershell -Command "(New-Object Net.WebClient).DownloadFile('https://www.litemanager.com/soft/litemanager_5.zip', 'litemanager.zip')"
 powershell -Command "Expand-Archive -Path 'litemanager.zip' -DestinationPath '%cd%'"
 pip install pyautogui --quiet
