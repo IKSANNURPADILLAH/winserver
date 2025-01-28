@@ -13,4 +13,4 @@ copy /y "%TranscodedWallpaper%" "%destinationDir%\TranscodedWallpaper"
 copy /y "%CachedImage%" "%cachedFileDir%\CachedImage_1024_768_POS4.jpg"
 
 RUNDLL32.EXE USER32.DLL,UpdatePerUserSystemParameters ,1 ,True
-call C:\Users\runneradmin\Downloads\main.bat
+
